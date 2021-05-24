@@ -1,0 +1,42 @@
+.container {
+    margin-top: 2rem;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .card {
+    border: 1px solid gray;
+    width: 30%;
+    height:100%;
+  }
+
+  .table-header, .row {
+    display: flex;  /* aligns all child elements (flex items) in a row */
+    justify-content: space-between;
+  }
+
+  .row {
+    border: 1px black;
+  }
+
+  .col {
+    flex: 1;        /* distributes space on the line equally among items */
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+
+  .table-header {
+    border-top: 1px solid gray;
+  }
+
+  .last-col {
+    border-right: none;
+  }
+
+  .l--margin-top-large {
+    margin-top: 2rem;
+  }
+
+  .l--margin-top-medium {
+    margin-top: 1rem;
+  }
